@@ -1,0 +1,10 @@
+{% load custom_filter %}
+{% if user.is_active %}
+<span class='active'>
+    {{ user.username|capital_letter }}
+</span>
+{% else %}
+<span class='inactive'>
+    {{ user.username|capital_letter }}  
+</span>
+{% endif %}

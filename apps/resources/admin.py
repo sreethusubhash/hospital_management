@@ -20,4 +20,6 @@ admin.site.register(models.Departments)
 admin.site.register(models.Resources,ResourcesDetails)
 admin.site.register(models.Doctors)
 admin.site.register(models.Appointments)
+admin.site.register(models.Patients)
+
 
